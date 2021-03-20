@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <title>Slider</title>
 </head>
+
 <body>
     <div class="slider-container">
         <div class="slide">
@@ -13,27 +18,32 @@
             <h3>1</h3>
         </div>
         <div class="slide">
-            <img src="/img/korea.jpg" class="slide-img"  id="korea-img" alt="korea">
+            <img src="/img/korea.jpg" class="slide-img" id="korea-img" alt="korea">
             <h3>2</h3>
         </div>
         <div class="slide">
-            <img src="/img/new-zealand.jpg" class="slide-img"  id="zealand-img" alt="new-zealand">
+            <img src="/img/new-zealand.jpg" class="slide-img" id="zealand-img" alt="new-zealand">
             <h3>3</h3>
         </div>
         <div class="slide">
-            <img src="/img/usa.jpg" class="slide-img"  id="usa-img" alt="usa">
+            <img src="/img/usa.jpg" class="slide-img" id="usa-img" alt="usa">
             <h3>4</h3>
         </div>
         <div class="slide">
-            <img src="/img/france.jpg" class="slide-img"  id="france-img" alt="france">
+            <img src="/img/france.jpg" class="slide-img" id="france-img" alt="france">
             <h3>5</h3>
         </div>
-       
+
     </div>
     <div class="btn-container">
-        <button type="button" class="prev-btn">prev</button>
-        <button type="button" class="next-btn">next</button>
+        <button type="button" class="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button type="button" class="next-btn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
     </div>
     <script src="/app.js"></script>
 </body>
+
 </html>
